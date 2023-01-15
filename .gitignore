@@ -5,4 +5,4 @@
 temp/
 
 # ignore the config.txt files
-# /config.txt
+/config.txt
