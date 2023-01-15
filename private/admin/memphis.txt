@@ -1,0 +1,26 @@
+{
+"result":{
+  "input":{
+  "benchmark":{
+  "id":"2020","benchmarkName":"Public_AR_Census2020","benchmarkDescription":"Public Address Ranges - Census 2020 Benchmark","isDefault":false
+  },
+  "address":{"street":"2254 Pine Hill Place","city":"Memphis","state":"TN","zip":"38106"}
+  },
+  "addressMatches":[
+    {
+    "matchedAddress":"2254 PINE HILL PL, MEMPHIS, TN, 38106",
+    "coordinates":{"x":-90.032,"y":35.085567},
+    "tigerLine":{"tigerLineId":"72908949","side":"L"},
+    "addressComponents":{
+    "fromAddress":"2200",
+    "toAddress":"2298",
+    "preQualifier":"",
+    "preDirection":"",
+    "preType":"",
+    "streetName":"PINE HILL",
+    "suffixType":"PL",
+    "suffixDirection":"",
+    "suffixQualifier":"",
+    "city":"MEMPHIS",
+    "state":"TN",
+    "zip":"38106"}}]}}
