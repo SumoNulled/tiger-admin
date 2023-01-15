@@ -15,10 +15,10 @@
 
     function __construct()
     {
-      $this->host = "theoldmountain.com";
-      $this->username = "admin";
-      $this->password = "3459847Cd!";
-      $this->dbname = "theoldmountain";
+      $this->host = "";
+      $this->username = "";
+      $this->password = "";
+      $this->dbname = "";
     }
 
     function getHost()
