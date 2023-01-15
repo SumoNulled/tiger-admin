@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ignore ALL .log files
 *.log
 
@@ -6,3 +7,6 @@ temp/
 
 # ignore the config.txt files
 /config.txt
+=======
+/var/www/personnel/forms/
+>>>>>>> a27eb598c5aed69332bc35ac9ea596cd8054e9ca
