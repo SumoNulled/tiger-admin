@@ -1,1 +1,2 @@
 This is a test of the git config file.
+This is now a second test of the .gitingore file.
