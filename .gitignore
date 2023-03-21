@@ -1,0 +1,12 @@
+/files/*.pdf
+/public
+/redist
+/PyOd
+/includes
+/.htaccess3
+/climate.php
+/favicon.ico
+/private/user/login1.php
+/private/admin/pages/personnel/forms/newgen.php
+/private/admin/pages/personnel/forms/test.php
+/private/admin/pages/personnel/forms/backend/includes/update.php

@@ -1,0 +1,22 @@
+Options -Indexes
+DirectoryIndex private/admin/index.php index.htm index.html index.php view.php
+php_value auto_prepend_file "/var/www/tigerbn/app/tpl/includes/classes/class.General.php"
+
+<IfModule mod_rewrite.c>
+# Apache Rewrite Rules
+  Options +FollowSymLinks -MultiViews
+  # Turn mod_rewrite on
+  RewriteEngine On
+  RewriteBase /
+
+  ## hide .php extension
+  # To externally redirect /dir/foo.php to /dir/foo
+  RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+  RewriteRule ^ %1 [R,L,NC]
+
+  ## To internally redirect /dir/foo to /dir/foo.php
+  RewriteCond %{REQUEST_FILENAME}.php -f
+  RewriteRule ^ %{REQUEST_FILENAME}.php [L]
+
+# End of Apache Rewrite Rules
+</IfModule>
